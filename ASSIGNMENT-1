@@ -1,0 +1,26 @@
+1. print('Hello World') #printing hello world
+
+
+2. input1=int(input())
+   input2=int(input())
+   print(input1+input2) #addition of two numbers
+   print(input1/input2) #division of two numbers
+   
+   
+3. s1=int(input())
+   s2=int(input())
+   s3=int(input())
+   s=(s1+s2+s3)/2
+   area=sqrt(s*(s-s1)*(s-s2)*(s-s3)) #area of triangle
+   print(area)
+   
+   
+4. str1=input()
+   str2=input()
+   str1,str2=str2,str1 #swaping of two variables
+   print(str1,str2)
+   
+   
+5. import random
+   n=random.random() #generating random number
+   print(n)
