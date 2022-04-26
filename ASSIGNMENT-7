@@ -1,0 +1,25 @@
+1.	a=list(map(int,input().split()))
+	print(sum(a))
+
+2.	a=list(map(int,input().split()))
+	print(max(a))
+
+3.	a=list(map(int,input().split()))
+	n=len(a)
+	d=int(input())
+	print(*(a[d:n]+a[0:d]))
+
+4.	a=list(map(int,input().split()))
+	n=len(a)
+	d=int(input())
+	print(*(a[n-d:]+a[0:n-d]))
+
+5.	a=list(map(int,input().split()))
+	n=len(a)
+	if n==1:
+    		print(True)
+	else:
+    		if all(a[i]>=a[i+1] for i in range(n-1) or a[i]<=a[i+1] for i in range(n-1)):
+        		print(True)
+    		else:
+        		print(False)
