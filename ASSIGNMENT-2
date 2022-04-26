@@ -1,0 +1,31 @@
+1. km=float(input())
+   miles=km*0.62137 #converting kilometers to miles
+   print(miles)
+
+
+2. celsius=float(input())
+   fahrenheit=(celsius*1.8)+32 #converting celsius to fahrenheit
+   print(fahrenheit)
+
+
+3. import calendar
+   year=int(input())
+   month=int(input())
+   print(calendar.month(year,month)) #display calendar
+
+
+4. import cmath
+   a=int(input())
+   b=int(input())
+   c=int(input())
+   d=(b**2)-(4*a*c)
+   sol1=(-b-cmath.sqrt(d))/(2*a)
+   sol2=(-b+cmath.sqrt(d))/(2*a)
+   print('roots are: ', sol1, sol2)
+
+
+5. a=int(input())
+   b=int(input())
+   print('values before swaping:', a, b)
+   a,b=b,a # swaping elements without temp variable
+   print('values after swaping: ',a, b)
